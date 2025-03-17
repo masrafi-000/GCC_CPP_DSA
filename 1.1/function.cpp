@@ -5,7 +5,7 @@ using namespace std;
 // {
 //     int fact = 1;
 
-//     for (int i = 1; i <= n; i++) 
+//     for (int i = 1; i <= n; i++)
 //     {
 //         fact *= i;
 //     }
@@ -32,13 +32,44 @@ using namespace std;
 //     return n;
 // }
 
+void findPrimes(int n)
+{
+    bool isPrime[n + 1];
+    for (int i = 0; i <= n; i++)
+    {
+        isPrime[i] = true;
+    }
+    isPrime[0] = isPrime[1] = false;
+
+    for (int i = 2; i * i <= n; i++)
+    {
+        if (isPrime[i])
+        {
+            for (int j = i * i; j <= n; j += i)
+            {
+                isPrime[j] = false;
+            }
+        }
+    }
+
+    cout << "Prime numbers from 2 to " << n << " are: ";
+    for (int i = 2; i <= n; i++)
+    {
+        if (isPrime[i])
+        {
+            cout << i << " ";
+        }
+    }
+    cout << endl;
+}
 
 int main()
 {
-    
-    // int n;
-    // cout << "Enter a number: ";
-    // cin >> n;
+
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    findPrimes(n);
     // cout << prime(n) << endl;
     // int n = 4, r = 2;
     // cout << nCr(n, r) << endl;
