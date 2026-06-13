@@ -8,9 +8,9 @@ int main()
     for (int i = 0; i < t; i++)
     {
 
-        long long int m;
-        int a, b, c;
-        scanf("%lld %d %d %d", &m, &a, &b, &c);
+        long long int m, a, b, c;
+
+        scanf("%lld %lld %lld %lld", &m, &a, &b, &c);
 
         int mul = a * b * c;
 
@@ -20,7 +20,7 @@ int main()
         }
         else if (m % mul == 0)
         {
-            printf("%d\n", m / mul);
+            printf("%lld\n", m / mul);
         }
         else
         {
