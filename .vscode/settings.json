@@ -2,5 +2,18 @@
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp"
-  }
+  },
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "go_conn",
+      "database": "pg_subquery",
+      "username": "postgres",
+      "password": "postgres"
+    }
+  ]
 }
