@@ -1,0 +1,1 @@
+{"name":"Local: 07","url":"/home/x-kali/Desktop/GCC_CPP_DSA/Linked-list/07.practice.cpp","tests":[{"id":1784135012728,"input":"6\n10 20 30 40 50 60","output":"30 40"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/x-kali/Desktop/GCC_CPP_DSA/Linked-list/07.practice.cpp","group":"local","local":true}
