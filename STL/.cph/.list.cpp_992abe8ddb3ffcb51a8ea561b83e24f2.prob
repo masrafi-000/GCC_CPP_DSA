@@ -1,0 +1,1 @@
+{"name":"Local: list","url":"/home/x-ubuntu/Desktop/GCC_CPP_DSA/STL/list.cpp","tests":[{"id":1786005692411,"input":"10 20 30 40 50 -1\n10 20 30 40 50 -1","output":"YES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/x-ubuntu/Desktop/GCC_CPP_DSA/STL/list.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 04_palindrome","url":"/home/x-ubuntu/Desktop/GCC_CPP_DSA/STL/04_palindrome.cpp","tests":[{"id":1786008392657,"input":"10 20 30 40 20 10 -1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/x-ubuntu/Desktop/GCC_CPP_DSA/STL/04_palindrome.cpp","group":"local","local":true}

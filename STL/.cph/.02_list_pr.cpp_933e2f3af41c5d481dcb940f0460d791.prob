@@ -1,0 +1,1 @@
+{"name":"Local: 02_list_pr","url":"/home/x-ubuntu/Desktop/GCC_CPP_DSA/STL/02_list_pr.cpp","tests":[{"id":1786007075119,"input":"10 20 30 -1","output":"30 20 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/x-ubuntu/Desktop/GCC_CPP_DSA/STL/02_list_pr.cpp","group":"local","local":true}
