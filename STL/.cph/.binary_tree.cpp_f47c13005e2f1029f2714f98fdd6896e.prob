@@ -1,0 +1,1 @@
+{"name":"Local: binary_tree","url":"/home/x-ubuntu/Desktop/GCC_CPP_DSA/STL/binary_tree.cpp","tests":[{"id":1786487201982,"input":"1 2 3 4 5 -1 6 -1 -1 -1 -1 -1 -1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/x-ubuntu/Desktop/GCC_CPP_DSA/STL/binary_tree.cpp","group":"local","local":true}
